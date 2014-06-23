@@ -7,18 +7,6 @@ import android.content.UriMatcher;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-/**
- * 
- * <p>
- * based on the work by Vladimir Vivien (http://vladimirvivien.com/), which
- * provides a very logical organization of the meta-data of the Database and
- * Content Provider
- * <p>
- * This note might be moved to a 'Special Thanks' section once one is created
- * and moved out of future test code.
- * 
- * @author Michael A. Walker
- */
 public class MoocSchema {
 
     /**
