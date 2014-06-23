@@ -17,21 +17,7 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-/**
- * The Content Provider for this application.
- * <p>
- * Content providers are one of the primary building blocks of Android
- * applications, providing content to applications. They encapsulate data and
- * provide it to applications through the single ContentResolver interface. A
- * content provider is only required if you need to share data between multiple
- * applications. For example, the contacts data is used by multiple applications
- * and must be stored in a content provider. If you don't need to share data
- * amongst multiple applications you can use a database directly via
- * SQLiteDatabase.
- * 
- * @author Michael A. Walker
- * 
- */
+
 public class MoocProvider extends ContentProvider {
 
     private final static String LOG_TAG = MoocProvider.class.getCanonicalName();
