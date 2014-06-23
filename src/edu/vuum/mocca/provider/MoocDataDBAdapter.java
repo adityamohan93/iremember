@@ -11,13 +11,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * This is the class that actually interacts with the SQLite3 database and does
- * the operations to manipulate the data within the database.
- * 
- * @author Michael A. Walker
- * 
- */
+
 public class MoocDataDBAdapter {
 
     private static final String LOG_TAG = MoocDataDBAdapter.class
