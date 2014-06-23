@@ -14,13 +14,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-/**
- * Skeleton example for how a functional SyncAdaptor's
- * AccountAuthenticatorService would be implemented.
- * 
- * @author Michael A. Walker
- * 
- */
+
 public class AccountAuthenticatorService extends Service {
     private static final String TAG = "AccountAuthenticatorService";
     private static AccountAuthenticatorImpl sAccountAuthenticator = null;
