@@ -18,16 +18,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import edu.adityamohan93.proj.iremember.R;
 
-/**
- * Activity that gets Launched when Adding an Account to the SyncManager
- * <p>
- * An Activity to prompt for a Server Address, a UserName, and a Password. Uses
- * these to verify user login credentials and to create a 'token' identifying
- * the user account on the device.
- * 
- * @author Michael A. Walker
- * @Date 2012-11-23
- */
 public class LoginActivity extends AccountAuthenticatorActivity {
 
     public final static String LOG_TAG = LoginActivity.class.getCanonicalName();
