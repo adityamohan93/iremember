@@ -25,8 +25,7 @@ import android.util.Log;
  * <p>
  * Currently this is only a STUB implementation.
  * 
- * @author Michael A. Walker
- * @Date 2012-11-23
+
  */
 public class SampleSyncAdapter extends AbstractThreadedSyncAdapter {
 
